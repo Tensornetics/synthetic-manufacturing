@@ -34,3 +34,60 @@ Contributions are welcome! Please refer to the contribution guidelines for more 
 ## License
 
 This project is not licensed
+
+```
+synthetic-manufacturing/
+|
+|-- docs/
+|   |-- requirements.md
+|   |-- design.md
+|   |-- testing.md
+|   |-- user-manual.md
+|
+|-- src/
+|   |-- data-collection/
+|   |   |-- main.py
+|   |   |-- requirements.txt
+|   |
+|   |-- tensor-encoding/
+|   |   |-- main.py
+|   |   |-- requirements.txt
+|   |
+|   |-- model-training/
+|   |   |-- main.py
+|   |   |-- requirements.txt
+|   |
+|   |-- prediction/
+|   |   |-- main.py
+|   |   |-- requirements.txt
+|   |
+|   |-- synthesis/
+|   |   |-- main.py
+|   |   |-- requirements.txt
+|   |
+|   |-- validation/
+|   |   |-- main.py
+|   |   |-- requirements.txt
+|   |
+|   |-- utils/
+|   |   |-- encode.py
+|   |   |-- train.py
+|   |   |-- predict.py
+|   |   |-- guide.py
+|   |   |-- validate.py
+|
+|-- tests/
+|   |-- test_data_collection.py
+|   |-- test_tensor_encoding.py
+|   |-- test_model_training.py
+|   |-- test_prediction.py
+|   |-- test_synthesis.py
+|   |-- test_validation.py
+|
+|-- config/
+|   |-- settings.ini
+|
+|-- requirements.txt
+|-- README.md
+|-- LICENSE
+```
